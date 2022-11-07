@@ -70,6 +70,9 @@ section ul{
     margin-top: 24px;
     list-style-type: none;
 }
+.contact-list{
+    justify-content: center
+}
 section ul li{
     transition: transform , 3s;
 
@@ -120,5 +123,11 @@ main section:nth-child(3){
         opacity: 1;
         transform: translateY(0);
     }
-    
+}
+@media (min-width: 700px){
+    #cards {
+        max-width: 670px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
