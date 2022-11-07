@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    text-align: center;
 }
 body{
     background-image: url(./assents/bg.jpg);/*pra  mostar onde pegar a imagem */
@@ -81,10 +82,12 @@ section ul li:hover{
     transform: scale(1.1);
 }
 .Game-list img {
+    justify-content: center;
     border-radius: 8px;
     width: 152px;
 }
 .Serie-list img{
+    justify-content: center;
     border-radius: 8px;
     width: 150px;
     height: 220px;
@@ -122,13 +125,5 @@ main section:nth-child(3){
     to{
         opacity: 1;
         transform: translateY(0);
-    }
-}
-@media (min-width: 700px){
-    main {
-        justify-content: center;
-        max-width: 580px;
-        flex-direction: row;
-        flex-wrap: wrap;
     }
 }
