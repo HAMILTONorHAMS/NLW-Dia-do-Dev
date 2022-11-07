@@ -126,6 +126,7 @@ main section:nth-child(3){
 }
 @media (min-width: 700px){
     main {
+        justify-content: center;
         max-width: 580px;
         flex-direction: row;
         flex-wrap: wrap;
